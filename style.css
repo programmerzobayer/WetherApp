@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right , #81ecec ,#00b894);
+}
+#weatherSearchInfo{
+    margin: auto ;
+    margin-top: 40px ;
+}
+#weathersearchTitle{
+    text-align: center;
+    background: rgba(239, 236, 236, 0.944);
+    border-radius: 8px 8px 0 0;
+    color:darkgrey;
+    padding: 10px;
+}
+#weathersearchTitle h4{
+margin-bottom: 0;
+font-size: 19px;
+}
+#search{
+     background: #ffff;
+    padding: 40px 10px;
+}
+#searchValue{
+    width: 80%;
+    padding: 10px 14px;
+    border-radius: 4px;
+    border: 1px solid #81ecec;
+    background: rgb(242, 240, 240);
+}
+#searchValue:focus{
+    outline: #00b894;
+}
+#searchBtn{
+    background: #00b894;
+    border: 1px solid #81ecec;
+    padding: 10px 14px;
+    border-radius: 4px;
+}
+#searchBtn:focus{
+    outline: none !important;
+}
+#searchLevel{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 1px 1px 0px rgba(7, 7, 67, 0.473);
+}
+.footer{
+    background: rgba(0, 0, 0, 0.341);
+    text-align: center;
+    color: white;
+    border-radius: 0 0 8px 8px;
+    padding: 10px 0;
+}
+.footer p{
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.alert{
+    width: 48%;
+    margin: auto;
+    margin-top: 20px;
+    display: none;
+}
+.alert h6{
+    margin-bottom: 0;
+}
+.weatherList{
+    background: rgb(255, 255, 255);
+    list-style: none;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+}
+.weatherTitle{
+background: rgba(0, 0, 0, 0.367);
+border-radius: 8px 8px 0 0;
+}
+.weatherTitle h5{
+    margin-bottom: 0;
+    font-size: 18px;
+    padding: 10px 0;
+    color: white;
+}
+#weather{
+    margin-top: 20px;
+}
+#Temp{
+   text-align: center;
+   padding: 0;
+   font-size: 25px;
+   color: #00b894;
+}
+#weatherImg{
+    padding: 0 !important;
+}
+#wetherInfoList{
+    margin: 10px 0;
+    font-weight: 500;
+}
+#weather{
+    display: none;
+}
+#weatherSearchSection{
+    display: block;
+   }
+   #close{
+    font-size: 20px;
+    color: rgb(159, 14, 43);
+   }
+@media (max-width:764px){
+    #searchValue{
+        width: 70%;
+        padding: 10px 14px;
+    }  
+
+    #searchBtn{
+        padding: 10px 14px;
+    }
+    .alert{
+        width: 94%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .alert h6{
+        font-size: 15px;
+    }
+}
