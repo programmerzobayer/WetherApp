@@ -25,7 +25,7 @@ font-size: 19px;
     padding: 40px 10px;
 }
 #searchValue{
-    width: 80%;
+    width: 100%;
     padding: 10px 14px;
     border-radius: 4px;
     border: 1px solid #81ecec;
@@ -39,6 +39,8 @@ font-size: 19px;
     border: 1px solid #81ecec;
     padding: 10px 14px;
     border-radius: 4px;
+    width: 100%;
+    margin-top: 18px;
 }
 #searchBtn:focus{
     outline: none !important;
@@ -100,7 +102,7 @@ border-radius: 8px 8px 0 0;
     padding: 0 !important;
 }
 #wetherInfoList{
-    margin: 10px 0;
+    margin: 14px 0;
     font-weight: 500;
 }
 #weather{
@@ -111,11 +113,11 @@ border-radius: 8px 8px 0 0;
    }
    #close{
     font-size: 20px;
-    color: rgb(159, 14, 43);
+    color: rgb(209, 13, 52);
    }
 @media (max-width:764px){
     #searchValue{
-        width: 70%;
+        width: 100%;
         padding: 10px 14px;
     }  
 
